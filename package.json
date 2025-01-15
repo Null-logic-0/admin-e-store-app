@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,7 +16,6 @@
     "jose": "^5.9.6",
     "jsonwebtoken": "^9.0.2",
     "next": "15.1.4",
-    "prisma": "^6.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^2.15.0",
@@ -29,6 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.4",
     "postcss": "^8.4.49",
+    "prisma": "^6.2.1",
     "tailwindcss": "^3.4.17"
   }
 }
