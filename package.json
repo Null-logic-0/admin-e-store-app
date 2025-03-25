@@ -25,7 +25,8 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@prisma/client": "^6.2.1",
+    "@prisma/client": "^6.4.1",
+    "postinstall": "prisma generate",
     "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.4",
